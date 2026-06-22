@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Entornos virtuales locales (¡Muy importante ignorarlos para no sobreescribir el Linux del contenedor!)
+venv/
+env/
+.venv/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Variables de entorno local
+.env
+.env.local
+
+# Archivos de configuración de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Markdown y documentación (No se necesitan en producción)
+README.md
+
+# Archivos de Docker (No es necesario copiarlos dentro del contenedor)
+Dockerfile
+docker-compose.yml
+.dockerignore
