@@ -59,6 +59,18 @@ Desde allí, puedes acceder al endpoint `POST /api/v1/predecir-estado`, hacer cl
 }
 \`\`\`
 
+#### --- DICCIONARIO PARA PROBAR TU API ---
+Códigos de Sitio:
+  0 -> AREA DE TECNOLOGIA
+  1 -> Auditoria
+  2 -> TECNOLOGIA
+
+#### Códigos de Grupo:
+  0 -> Area de Operaciones
+  1 -> Area de Tecnologias
+  2 -> Desconocido
+  3 -> Logistica
+
 El sistema responderá con el estado estimado y su respectiva probabilidad de cierre.
 
 ## 🛑 Detener el Servicio
