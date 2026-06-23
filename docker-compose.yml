@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  helpdesk-ml-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: helpdesk_predictor_api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - TZ=America/Bogota
