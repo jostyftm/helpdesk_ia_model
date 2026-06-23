@@ -21,10 +21,10 @@ Thumbs.db
 # ⚠️ IMPORTANTE: Ignorar los Modelos de Machine Learning
 # ----------------------------------------------------
 # Los archivos .pkl grandes nunca deben subirse al repo.
-# Se deben generar en la máquina de destino o usar almacenamiento en la nube (S3, etc).
-*.pkl
-modelo_helpdesk_rf.pkl
-scaler_helpdesk.pkl
+# # Se deben generar en la máquina de destino o usar almacenamiento en la nube (S3, etc).
+# *.pkl
+# modelo_helpdesk_rf.pkl
+# scaler_helpdesk.pkl
 
 # Archivos temporales de Colab / Jupyter
 .ipynb_checkpoints/
