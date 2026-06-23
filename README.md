@@ -8,16 +8,13 @@ Este proyecto forma parte del Taller 4 de Aprendizaje de Máquina Aplicado y est
 
 Asegúrate de que tu directorio contenga los siguientes archivos antes de iniciar el despliegue:
 
-\`\`\`text
-/
-├── main.py                     # Código fuente de la API REST (FastAPI)
-├── modelo_helpdesk_rf.pkl      # Modelo Random Forest serializado
-├── scaler_helpdesk.pkl         # Escalador StandardScaler serializado
-├── requirements.txt            # Dependencias de Python
-├── Dockerfile                  # Instrucciones de construcción de la imagen
-├── docker-compose.yml          # Orquestación del contenedor
-└── README.md                   # Documentación del proyecto
-\`\`\`
+├── main.py                     
+├── modelo_helpdesk_rf.pkl      
+├── scaler_helpdesk.pkl         
+├── requirements.txt            
+├── Dockerfile                  
+├── docker-compose.yml          
+└── README.md                  
 
 ## ⚙️ Requisitos Previos
 
